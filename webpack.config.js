@@ -11,4 +11,12 @@ module.exports = {
     new HtmlWebpackPlugin({ title: "Intro to Webpack" }),
     new CleanWebpackPlugin(),
   ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
 }
