@@ -5,3 +5,5 @@ const makeImage = () => {
   image.width = 100
   return image
 }
+
+export default makeImage

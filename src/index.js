@@ -1,3 +1,6 @@
+import makeTitle from "./components/title"
+import makeImage from "./components/image"
+
 const title = makeTitle()
 document.body.appendChild(title)
 

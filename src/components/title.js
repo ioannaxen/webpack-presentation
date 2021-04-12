@@ -3,3 +3,5 @@ const makeTitle = () => {
   title.innerText = "Hello world!"
   return title
 }
+
+export default makeTitle
