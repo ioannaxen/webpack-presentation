@@ -9,9 +9,6 @@ module.exports = ({ mode = "production" }) =>
     {
       entry: "./src",
       mode,
-      output: {
-        filename: "bundle.js",
-      },
       plugins: [
         new HtmlWebpackPlugin({ title: "Intro to Webpack" }),
         new CleanWebpackPlugin(),

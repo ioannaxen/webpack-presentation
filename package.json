@@ -6,6 +6,7 @@
   "scripts": {
     "webpack": "webpack",
     "dev": "webpack serve",
+    "build:development": "npm run webpack -- --env mode=development",
     "build:production": "npm run webpack -- --env mode=production"
   },
   "repository": {
