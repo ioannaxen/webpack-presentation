@@ -1,3 +1,2 @@
-const title = document.createElement("h1")
-title.innerText = "Hello world!"
+const title = makeTitle()
 document.body.appendChild(title)
